@@ -230,6 +230,7 @@ class ImageGallerySaverPlugin : FlutterPlugin, MethodCallHandler {
                 || suffix.equals("jpg", ignoreCase = true)
                 || suffix.equals("jpeg", ignoreCase = true)
                 || suffix.equals("heic", ignoreCase = true)
+                || suffix.equals("heif", ignoreCase = true)
                 || suffix.equals("gif", ignoreCase = true)
                 || suffix.equals("apng", ignoreCase = true)
                 || suffix.equals("raw", ignoreCase = true)
